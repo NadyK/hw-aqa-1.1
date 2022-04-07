@@ -7,7 +7,7 @@ import static org.testng.Assert.assertEquals;
 public class CashbackHackServiceTest {
 
 @Test
-void shouldRemain1() {
+public void shouldRemain1() {
     CashbackHackService service = new CashbackHackService();
     int amount = 900;
 
@@ -17,7 +17,7 @@ void shouldRemain1() {
     assertEquals(actual, expected);
 }
     @Test
-    void shouldRemain2() {
+    public  void shouldRemain2() {
         CashbackHackService service = new CashbackHackService();
         int amount = 0;
 
@@ -27,7 +27,7 @@ void shouldRemain1() {
         assertEquals(actual, expected);
     }
     @Test
-    void shouldRemain3() {
+    public void shouldRemain3() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
 
